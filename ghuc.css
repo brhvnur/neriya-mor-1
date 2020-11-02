@@ -6,3 +6,8 @@ body {
 }
 h1{caret-color: blueviolet;
 }
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
