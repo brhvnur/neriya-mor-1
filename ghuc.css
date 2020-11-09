@@ -1,13 +1,16 @@
 body {
   margin: 0;
   font-family: arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1.5;font-family: 'Amatic SC', cursive;
+font-family: 'Rubik', sans-serif;
     caret-color: deepskyblue;
 }
-h1{caret-color: blueviolet;
+h1{color: brown; caret-color: deepskyblue;font-weight: 300;
 }
+h2{color: fuchsia; font-family: arial, sans-serif;font-size: 45px;}
 img {
   max-width: 100%;
   width: auto;
   height: auto;
 }
+h3{color: fuchsia; font-family: arial, sans-serif;font-size: 30px;}
