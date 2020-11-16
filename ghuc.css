@@ -13,4 +13,6 @@ img {
   width: auto;
   height: auto;
 }
-h3{color: fuchsia; font-family: arial, sans-serif;font-size: 30px;}
+h3{color: fuchsia; font-family: arial, sans-serif;font-size: 30px;} 
+.container{max-width:800px margin: auto;
+}
