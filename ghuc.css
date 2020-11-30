@@ -17,7 +17,8 @@ h3{color: darksalmon; font-family: arial, sans-serif;font-size: 25px;}
 .container{max-width:800px; margin: auto;
 }
 
-.cta{background-color: azure; padding: 20px; margin;text-align: center;  }
+
+.cta{background-color: bisque; padding: 20px; margin;  }
 .cta h3{color: brown;font-size: 20px}
 .button {
   background-color: brown;
@@ -26,3 +27,14 @@ h3{color: darksalmon; font-family: arial, sans-serif;font-size: 25px;}
   padding: 14px;
   display: inline-block;
 }
+.alignleft {
+  max-width: 40%;
+  float: left;
+  margin-right: 14px;
+  margin-bottom: 14px;
+    overflow: hidden;
+        
+}
+
+
+
