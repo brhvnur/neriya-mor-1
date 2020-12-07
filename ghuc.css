@@ -7,13 +7,13 @@ font-family: 'Rubik', sans-serif;
 }
 h1{color: brown; caret-color: deepskyblue;font-weight: 300;font-size: 50px
 }
-h2{color: darksalmon; font-family: arial, sans-serif;font-size: 25px;}
+h2{color:  #e98428; font-family: arial, sans-serif;font-size: 25px;}
 img {
   max-width: 100%;
   width: auto;
   height: auto;
 }
-h3{color: darksalmon; font-family: arial, sans-serif;font-size: 25px;} 
+h3{color:  #e98428; font-family: arial, sans-serif;font-size: 25px;} 
 .container{max-width:800px; margin: auto;
 }
 
