@@ -1,13 +1,13 @@
 body {
   margin: 0;
   font-family: arial, sans-serif;
-  line-height: 1.5;font-family: 'Amatic SC', cursive;
+  line-height: 1.5;font-family: font-family: 'Rubik', sans-serif;
 font-family: 'Rubik', sans-serif;
     caret-color: deepskyblue;
 }
 h1{color: brown; caret-color: deepskyblue;font-weight: 300;font-size: 50px
 }
-h2{color:  #e98428; font-family: arial, sans-serif;font-size: 25px;}
+h2{color:  #002e3f; font-family: font-family: 'Rubik', sans-serif;, sans-serif;font-size: 30px;}
 img {
   max-width: 100%;
   width: auto;
@@ -18,10 +18,10 @@ h3{color:  #e98428; font-family: arial, sans-serif;font-size: 25px;}
 }
 
 
-.cta{background-color: #5fbbe4; padding: 20px; margin; overflow: hidden;  }
-.cta h3{color: #ffffff;font-size: 20px}
+.cta{background-color: #ffb260; padding: 20px; margin; overflow: hidden;  }
+.cta h3{color: #ffffff;font-size: 20px; font-family: 'Rubik', sans-serif; }
 .button {
-  background-color: #e98428;
+  background-color: #e6589e;
   color: #fff;
   text-decoration: none;
   padding: 14px;
@@ -36,4 +36,12 @@ h3{color:  #e98428; font-family: arial, sans-serif;font-size: 25px;}
 }
 
 
+
+
+.news {
+  padding: 60px;
+  background: url(img/reg1.png);
+  background-position: cover;
+    text-align: center;
+}
 
