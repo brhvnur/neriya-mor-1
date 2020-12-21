@@ -1,47 +1,103 @@
 body {
-  margin: 0;
-  font-family: arial, sans-serif;
-  line-height: 1.5;font-family: font-family: 'Rubik', sans-serif;
-font-family: 'Rubik', sans-serif;
+    margin: 0;
+    font-family: arial, sans-serif;
+    line-height: 1.5;
+    font-family: font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
     caret-color: deepskyblue;
 }
-h1{color: brown; caret-color: deepskyblue;font-weight: 300;font-size: 50px
+
+h1 {
+    color: brown;
+    caret-color: deepskyblue;
+    font-weight: 300;
+    font-size: 50px
 }
-h2{color:  #002e3f; font-family: font-family: 'Rubik', sans-serif;, sans-serif;font-size: 30px;}
+
+h2 {
+    color:#ffff82;
+    font-family: font-family: 'Rubik', sans-serif;
+    ,
+    sans-serif;
+    font-size: 30px;
+}
+
 img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
-h3{color:  #e98428; font-family: arial, sans-serif;font-size: 25px;} 
-.container{max-width:800px; margin: auto;
+
+h3 {
+    color: #e98428;
+    font-family: arial, sans-serif;
+    font-size: 25px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
 }
 
 
-.cta{background-color: #ffb260; padding: 20px; margin; overflow: hidden;  }
-.cta h3{color: #ffffff;font-size: 20px; font-family: 'Rubik', sans-serif; }
+.cta {
+    background-color: #ffb260;
+    padding: 20px;
+    margin;
+    overflow: hidden;
+}
+
+.cta h3 {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
 .button {
-  background-color: #e6589e;
-  color: #fff;
-  text-decoration: none;
-  padding: 14px;
-  display: inline-block;
+    background-color: #ffff82;
+    color: #000;
+    text-decoration: none;
+    padding: 14px;
+    display: inline-block;
 }
+
 .alignleft {
-  max-width: 40%;
-  float: left;
-  margin-right: 14px;
-  margin-bottom: 14px; 
-        
+    max-width: 40%;
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 14px;
+
 }
 
 
 
 
 .news {
-  padding: 60px;
-  background: url(img/reg1.png);
-  background-position: cover;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 15), rgba(0, 0, 0, 0.25)), url(img/reg1.png);
+
+
+    padding: 60px;
+    background:
+        background-position: cover;
     text-align: center;
+    color: #fff
+}
+
+input {
+  font: inherit;
+  color: inherit;
+  background: none;
+
+}
+label {
+  margin-bottom:20px;
+  display: block;
+}
+
+
+label span {
+  display: inline-block;
+  width: 100px;
 }
 
