@@ -1,0 +1,28 @@
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Miriam Libre', sans-serif;
+font-family: 'Secular One', sans-serif;
+}
+.about{background:#f7ff98
+     font-family:15px
+}
+
+.container {
+    background:#f7ff98
+    font-family:20px
+    max-width: 900px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.about .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+}

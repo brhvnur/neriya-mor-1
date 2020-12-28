@@ -94,6 +94,14 @@ label {
   margin-bottom:20px;
   display: block;
 }
+input:focus {
+  outline: 0;
+  background: rgba(0,0,0,0.5);
+}
+.button:hover {
+  background: #fff;
+  color: #000;
+}
 
 
 label span {
