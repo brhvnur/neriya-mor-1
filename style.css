@@ -1,15 +1,14 @@
 body {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-font-family: 'Miriam Libre', sans-serif;
-font-family: 'Secular One', sans-serif;
+  font-family: 'Alef', sans-serif;
+font-family: 'M PLUS Rounded 1c', sans-serif;
 }
-.about{background:#f7ff98
-     font-family:15px
+.about{background:#dfe
+     font-family: 'M PLUS Rounded 1c', sans-serif;:15px
 }
-
+h1, h2, h3{font-family: 'M PLUS Rounded 1c', sans-serif;:15px
+    color: #fff}
 .container {
-    background:#f7ff98
-    font-family:20px
+    font-family:'sans-serif':20px
     max-width: 900px;
     margin: auto;
 }
@@ -24,5 +23,15 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    background:#006293;
 
 }
+
+p {
+    color: #fff;
+    font-family: 'Alef', sans-serif;
+}
+
+h1 {font-family: 'M PLUS Rounded 1c', sans-serif;:15px
+    color: #fff}
+    
