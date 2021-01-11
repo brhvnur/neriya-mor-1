@@ -13,7 +13,8 @@ body {
 h1,
 h2,
 h3,
-.button {
+.button {    margin: auto;
+
     font-family: 'M PLUS Rounded 1c', sans-serif;
     : 15px color: #fff
 }
@@ -56,6 +57,7 @@ h1 {
 
 .about img {
     display: block;
+    margin-top: 40px;
 }
 
 .button {
@@ -72,4 +74,29 @@ h1 {
 .butto:hover {
     background: #fff;
     color: : #006293;
+}
+
+.gallery {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ grid-gap: 40px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: gray;
+
+
+}
+
+.gallery img {
+  display: block;
+}
+
+
+h2 {
+      font-size: 30px;
+  text-align: center;
+
 }
