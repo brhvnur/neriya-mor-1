@@ -48,9 +48,12 @@ h3 {
     font-family: 'Rubik', sans-serif;
 }
 
-.button {
-    background-color: #ffff82;
-    color: #000;
+.butto:hover {
+    background: #000;
+    color: :#000;
+
+   
+   
     text-decoration: none;
     padding: 14px;
     display: inline-block;
@@ -93,10 +96,7 @@ input:focus {
   outline: 0;
   background: rgba(0,0,0,0.5);
 }
-.button:hover {
-  background: #fff;
-  color: #000;
-}
+
 
 
 label span {

@@ -2,25 +2,28 @@ body {
     margin: 0;
 
     font-family: 'Alef', sans-serif;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .about {
-    background: #dfe font-family: 'M PLUS Rounded 1c', sans-serif;
-    : 15px
+    background: #ffbabd;
+    font-family: 'Varela Round', sans-serif;
+    : 20px
 }
 
 h1,
 h2,
 h3,
-.button {    margin: auto;
-
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    : 15px color: #fff
+.button {
+    margin: auto;
+    font-family: 'Varela Round', sans-serif;
+    : 30px; color: #60acff
 }
 
 .container {
-    font-family: 'sans-serif':20px max-width: 900px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -35,21 +38,21 @@ img {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     grid-gap: 30px;
-    background: #006293;
+
 
 }
 
 p {
-    color: #fff;
-    font-family: 'Alef', sans-serif;
+    color: #000;
+    font-family: 'Varela Round', sans-serif;
     24px;
 }
 
 h1 {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Amatic SC', cursive;
 
-    color: #fff;
-    font-size: 38px;
+    color: #60acf0;
+    font-size: 50px;
     line-height: 1.1;
 }
 
@@ -60,10 +63,11 @@ h1 {
     margin-top: 40px;
 }
 
-.button {
-    color: #fff;
+.button:hover {
+    
+    color: #000;
     text-decoration: none;
-    border: 3px solid #fff;
+    border: 3px solid #000;
     padding: 14px 20px;
     display: inline-block;
     margin-top: 10px;
@@ -71,32 +75,35 @@ h1 {
 
 }
 
-.butto:hover {
-    background: #fff;
-    color: : #006293;
-}
+
 
 .gallery {
-  list-style: none;
-  padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
- grid-gap: 40px;
-  font-size: 15px;
-  text-align: center;
-  font-weight: bold;
-  color: gray;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color:#60acff;
+     font-family: 'Varela Round', sans-serif;
 
 
 }
 
 .gallery img {
-  display: block;
+    display: block;
 }
 
+.about img {
+    display: block;
+    margin-top: 10px
+}
 
-h2 {
-      font-size: 30px;
-  text-align: center;
+h2 { color:#000;
+    font-size: 25px;
+    text-align: center;
+   
 
 }
