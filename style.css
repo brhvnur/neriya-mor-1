@@ -35,7 +35,7 @@ img {
 
 .about .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     align-items: center;
     grid-gap: 30px;
 
@@ -58,7 +58,7 @@ h1 {
 
 }
 
-.about img {
+.about img {max-width: 50%;
     display: block;
     margin-top: 40px;
 }
@@ -101,7 +101,7 @@ h1 {
     margin-top: 10px
 }
 
-h2 { color:#000;
+h2 { color:darkorange;
     font-size: 25px;
     text-align: center;
    
