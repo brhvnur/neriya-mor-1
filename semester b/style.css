@@ -37,9 +37,15 @@ img {
   height: auto;
 }
 h1 {
-  font-size: 80px;
-  font-family: 'ambivalenti';
+  font-size: 30px;
+  font-family: 'opensans';
   font-weight: 400;
 }
 
 
+
+p1 {font-size: 15px;
+  font-family: 'opensans';
+  font-weight: 400;
+    
+}
