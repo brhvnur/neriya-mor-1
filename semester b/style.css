@@ -45,11 +45,12 @@ h1 {
     font-family: 'opensans';
     font-weight: 700;
     grid-gap: 15px;
+    color: #E21B2B;
 }
 
 .banner {
     background-image: linear-gradient(rgba(225, 225, 225, 225), rgba(225, 225, 225, 0)),
-        url(img/reka1.jpg);
+        url(img/reg6.jpg);
     background-position: center 40%;
     background-size: cover;
     text-align: center;
@@ -68,7 +69,7 @@ p1 {
     font-family: 'opensans';
     font-weight: 400;
     grid-gap: 15px;
-
+color: #000;
 }
 
 .button {
@@ -93,12 +94,12 @@ h2 {
     font-family: 'opensans';
     font-weight: 700;
     text-align: center;
-    color: #d4a5b8;
+    color: #FF8089;
 }
 
 h2:after {
     content: "";
-    border-bottom: 3px solid #e9ddc5;
+    border-bottom: 3px solid #FCC5DF;
     width: 80px;
     display: block;
     margin: auto;
@@ -115,11 +116,24 @@ p {
 
 h1:after {
     content: "";
-    background: url(img/rakevet1.png) no-repeat;
-    background-size: contain;
-    height: 50px;
-    max-width: 300px;
+    border-bottom: 3px solid #fff;
+    width: 500px;
     display: block;
     margin: auto;
 
 }
+.features {
+  background: #fff;
+  text-align: center;
+}
+.features ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 56px;
+}
+.features img {
+  max-width: 100px;
+}
+
