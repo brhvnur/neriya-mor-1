@@ -142,4 +142,20 @@ footer {
   text-align: center;
   padding: 5px;
 }
+header {
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  text-decoration: none;
+  color: crimson;
+  padding: 10px;
+  display: block;
+}
+
 
