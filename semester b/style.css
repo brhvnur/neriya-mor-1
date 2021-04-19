@@ -153,15 +153,16 @@ nav ul {
 }
 nav a {
   text-decoration: none;
-  color: crimson;
+  color:#000;
   padding: 10px;
   display: block; 
-   
+   background:#FCC5DF;
+    width: 180px;
      list-style: none;
-  
-  
-   
+ 
    
 }
+nav a:hover{background: #ed676f;
+    color: #fff;}
 
 
