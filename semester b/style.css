@@ -106,7 +106,7 @@ h2:after {
 
 }
 
-p {
+p { font-family: 'opensans';
     text-align: center;
     font-size: 15px;
    font-family: 'opensans';
@@ -156,19 +156,42 @@ nav a {
   color:#000;
   padding: 10px;
   display: block; 
-   background:#FCC5DF;
+  
     width: 110px;
      list-style: none;
     font-family: 'opensans';
      font-size: 15px;
-    background-size: 150%;
-    transition: .3s;
+   text-decoration: none;
+   
+    display: inline-block;
+    
+    margin: 10px;
  
    
 }
-nav a:hover{background: #ed676f;
-    color: #fff;} 
+
+
+nav a:hover{
+    color: #ed676f;border-bottom-color: #fff;} 
+
 .container{max-width: 800px;
-margin:auto;}
+margin:auto; 
+
+
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0 10px;
+}
+.current a {
+  font-weight: bold;
+}
 
 
