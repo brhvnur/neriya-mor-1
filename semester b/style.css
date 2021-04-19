@@ -27,7 +27,7 @@ body {
 
 body {
     background: #fff;
-    color: #000;
+    color:;
     margin: 0;
     font-family: 'almoni', sans-serif;
     line-height: 1.5;
@@ -109,7 +109,7 @@ h2:after {
 p {
     text-align: center;
     font-size: 15px;
-    font-family: 'opensans';
+    font-family: 'almoni', sans-serif;
     font-weight: 400;
     grid-gap: 30px;
 }
@@ -137,7 +137,7 @@ h1:after {
   max-width: 100px;
 }
 footer {
-  background: #000;
+  background: #FCC5DF;
   color: #fff;
   text-align: center;
   padding: 5px;
@@ -155,7 +155,13 @@ nav a {
   text-decoration: none;
   color: crimson;
   padding: 10px;
-  display: block;
+  display: block; 
+   
+     list-style: none;
+  
+  
+   
+   
 }
 
 
