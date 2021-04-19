@@ -64,7 +64,7 @@ h1 {
 
 
 
-p1 {
+p {
     font-size: 15px;
     font-family: 'opensans';
     font-weight: 400;
@@ -109,7 +109,7 @@ h2:after {
 p {
     text-align: center;
     font-size: 15px;
-    font-family: 'almoni', sans-serif;
+   font-family: 'opensans';
     font-weight: 400;
     grid-gap: 30px;
 }
@@ -157,12 +157,18 @@ nav a {
   padding: 10px;
   display: block; 
    background:#FCC5DF;
-    width: 180px;
+    width: 110px;
      list-style: none;
+    font-family: 'opensans';
+     font-size: 15px;
+    background-size: 150%;
+    transition: .3s;
  
    
 }
 nav a:hover{background: #ed676f;
-    color: #fff;}
+    color: #fff;} 
+.container{max-width: 800px;
+margin:auto;}
 
 
