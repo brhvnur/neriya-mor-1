@@ -1,4 +1,12 @@
 @font-face {
+    font-family: 'Rubik', sans-serif;
+}
+
+@font-face {
+    font-family: 'Rubik', sans-serif;
+}
+
+@font-face {
     font-family: 'opensans';
     src: url('fonts/opensans/700/opensanshebrew-bold.woff') format('woff');
     font-weight: 700;
@@ -27,7 +35,7 @@ body {
 
 body {
     background: #fff;
-    color:;
+    color: ;
     margin: 0;
     font-family: 'almoni', sans-serif;
     line-height: 1.5;
@@ -42,10 +50,10 @@ img {
 
 h1 {
     font-size: 30px;
-    font-family: 'opensans';
+    font-family: 'Rubik', sans-serif;
     font-weight: 700;
     grid-gap: 15px;
-    color: #E21B2B;
+    color: #EC3E95;
 }
 
 .banner {
@@ -66,10 +74,10 @@ h1 {
 
 p {
     font-size: 15px;
-    font-family: 'opensans';
+    font-family: 'Rubik', sans-serif;
     font-weight: 400;
     grid-gap: 15px;
-color: #000;
+   color:#92298D;
 }
 
 .button {
@@ -85,31 +93,32 @@ color: #000;
 }
 
 .button:hover {
-    background: #ed676f;
+    background:#EC3E95;
     color: #fff;
 }
 
 h2 {
     font-size: 25px;
-    font-family: 'opensans';
+    font-family: 'Rubik', sans-serif;
     font-weight: 700;
     text-align: center;
-    color: #FF8089;
+    color: #F299C1;
 }
 
 h2:after {
     content: "";
-    border-bottom: 3px solid #FCC5DF;
+    border-bottom: 3px solid  #EC3E95;
     width: 80px;
     display: block;
     margin: auto;
 
 }
 
-p { font-family: 'opensans';
+p {color:#92298D;
+    font-family: 'Rubik', sans-serif;
     text-align: center;
     font-size: 15px;
-   font-family: 'opensans';
+
     font-weight: 400;
     grid-gap: 30px;
 }
@@ -122,76 +131,147 @@ h1:after {
     margin: auto;
 
 }
+
 .features {
-  background: #fff;
-  text-align: center;
+    background: #fff;
+    text-align: center;
 }
+
 .features ul {
-  list-style: none;
-  padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 56px;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 56px;
 }
+
 .features img {
-  max-width: 100px;
+    max-width: 100px;
 }
+
 footer {
-  background: #FCC5DF;
-  color: #fff;
-  text-align: center;
-  padding: 5px;
+    background: #FCC5DF;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
 }
+
 header {
-  text-align: center;
+    text-align: center;
 }
+
 nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
+
 nav a {
-  text-decoration: none;
-  color:#000;
-  padding: 10px;
-  display: block; 
-  
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    display: block;
+
     width: 110px;
-     list-style: none;
+    list-style: none;
     font-family: 'opensans';
-     font-size: 15px;
-   text-decoration: none;
-   
+    font-size: 15px;
+    text-decoration: none;
+
     display: inline-block;
-    
+
     margin: 10px;
- 
-   
-}
-
-
-nav a:hover{
-    color: #ed676f;border-bottom-color: #fff;} 
-
-.container{max-width: 800px;
-margin:auto; 
+    color:#92298D;
 
 
 }
+
+
+nav a:hover {
+    color: #EC3E95;
+    border-bottom-color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+
+  
+
+
+}
+
 
 nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
-nav li {
-  margin: 0 10px;
-}
+
+
 .current a {
-  font-weight: bold;
+    font-weight: bold;
 }
 
+.price-list {
+    list-style: none;
+    padding: 0;
+    columns: 2;
+}
 
+.price-list li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.line {
+    flex: 1;
+    border-bottom: 2px solid;
+    height: 1em;
+    margin: 0 5px;
+    justify-content: space-between;
+}
+
+link {}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+ color: #EC3E95;
+
+
+
+}
+
+p1 {font-family: 'Rubik', sans-serif;
+    
+}
+
+.title {font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+ color:  #EC3E95;
+
+    
+}
+
+.price {font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+ color:#92298D;
+    
+}
+
+div {color:#FCC5DF;
+    
+}
+
+.price-wrop img{width: 100px;
+    margin-bottom: auto;
+    display: block;
+    
+}
+.price-wrop h2{text-align: center;
+margin-top: 0;}
+.price-wrop h2 after{ margin: auto;}
