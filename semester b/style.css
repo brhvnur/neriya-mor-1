@@ -43,7 +43,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+
     width: auto;
     height: auto;
 }
@@ -77,23 +77,23 @@ p {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     grid-gap: 15px;
-   color:#92298D;
+    color: #92298D;
 }
 
 .button {
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'opensans';
     font-weight: 700;
     text-decoration: none;
     color: #000;
     background: #d4a5b8;
-    padding: 10px 40px;
+    padding: 10px 20px;
     display: inline-block;
-    grid-gap: 15px
+    grid-gap:5px
 }
 
 .button:hover {
-    background:#EC3E95;
+    background: #EC3E95;
     color: #fff;
 }
 
@@ -107,14 +107,15 @@ h2 {
 
 h2:after {
     content: "";
-    border-bottom: 3px solid  #EC3E95;
+    border-bottom: 3px solid #EC3E95;
     width: 80px;
     display: block;
     margin: auto;
 
 }
 
-p {color:#92298D;
+p {
+    color: #92298D;
     font-family: 'Rubik', sans-serif;
     text-align: center;
     font-size: 15px;
@@ -135,6 +136,8 @@ h1:after {
 .features {
     background: #fff;
     text-align: center;
+    display: block;
+    
 }
 
 .features ul {
@@ -160,6 +163,12 @@ header {
     text-align: center;
 }
 
+nav img {
+    display: block;
+    min-width: 80px!important;
+    margin: auto;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -169,9 +178,9 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #000;
+    
     padding: 10px;
-    display: block;
+
 
     width: 110px;
     list-style: none;
@@ -182,7 +191,7 @@ nav a {
     display: inline-block;
 
     margin: 10px;
-    color:#92298D;
+    color: #92298D;
 
 
 }
@@ -197,7 +206,7 @@ nav a:hover {
     max-width: 800px;
     margin: auto;
 
-  
+
 
 
 }
@@ -240,38 +249,49 @@ link {}
 h3 {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
- color: #EC3E95;
+    color: #EC3E95;
 
 
 
 }
 
-p1 {font-family: 'Rubik', sans-serif;
-    
+p1 {
+    font-family: 'Rubik', sans-serif;
+
 }
 
-.title {font-family: 'Rubik', sans-serif;
+.title {
+    font-family: 'Rubik', sans-serif;
     font-size: 20px;
- color:  #EC3E95;
+    color: #EC3E95;
 
-    
+
 }
 
-.price {font-family: 'Rubik', sans-serif;
+.price {
+    font-family: 'Rubik', sans-serif;
     font-size: 15px;
- color:#92298D;
-    
+    color: #92298D;
+
 }
 
-div {color:#FCC5DF;
-    
+div {
+    color: #FCC5DF;
+
 }
 
-.price-wrop img{width: 100px;
+.price-wrop img {
+    width: 100px;
     margin-bottom: auto;
     display: block;
-    
+
 }
-.price-wrop h2{text-align: center;
-margin-top: 0;}
-.price-wrop h2 after{ margin: auto;}
+
+.price-wrop h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.price-wrop h2 after {
+    margin: auto;
+}
