@@ -57,7 +57,7 @@ h1 {
 }
 
 .banner {
-    background-image: linear-gradient(rgba(225, 225, 225, 225), rgba(225, 225, 225, 0)),
+    background-image: linear-gradient(rgba(225, 225, 225, 0), rgba(0, 225,225,0)),
         url(img/reg6.jpg);
     background-position: center 40%;
     background-size: cover;
@@ -136,7 +136,7 @@ h1:after {
 .features {
     background: #fff;
     text-align: center;
-    display: block;
+    margin: auto;
     
 }
 
