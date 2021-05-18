@@ -53,12 +53,12 @@ h1 {
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     grid-gap: 15px;
-    color: #EC3E95;
+    color:#5CAADE;
 }
 
 .banner {
     background-image: linear-gradient(rgba(225, 225, 225, 0), rgba(0, 225,225,0)),
-        url(img/reg6.jpg);
+        url(img/reg8.jpg);
     background-position: center 40%;
     background-size: cover;
     text-align: center;
@@ -102,7 +102,7 @@ h2 {
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     text-align: center;
-    color: #F299C1;
+    color: #5CAADE;
 }
 
 h2:after {
@@ -115,7 +115,7 @@ h2:after {
 }
 
 p {
-    color: #92298D;
+    color: #000;
     font-family: 'Rubik', sans-serif;
     text-align: center;
     font-size: 15px;
@@ -191,15 +191,15 @@ nav a {
     display: inline-block;
 
     margin: 10px;
-    color: #92298D;
+    color: #EA0D8C;
 
 
 }
 
 
 nav a:hover {
-    color: #EC3E95;
-    border-bottom-color: #fff;
+    color: #000;
+    
 }
 
 .container {
@@ -249,7 +249,7 @@ link {}
 h3 {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
-    color: #EC3E95;
+    color: #5CAADE;
 
 
 
@@ -263,7 +263,7 @@ p1 {
 .title {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
-    color: #EC3E95;
+   
 
 
 }
@@ -271,12 +271,12 @@ p1 {
 .price {
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
-    color: #92298D;
+    color: #5CAADE;
 
 }
 
 div {
-    color: #FCC5DF;
+    color: #000;
 
 }
 
