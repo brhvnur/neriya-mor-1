@@ -86,14 +86,14 @@ p {
     font-weight: 700;
     text-decoration: none;
     color: #000;
-    background: #d4a5b8;
+    background: #FFEEF7;
     padding: 10px 20px;
     display: inline-block;
     grid-gap:5px
 }
 
 .button:hover {
-    background: #EC3E95;
+    background:  #5CAADE;
     color: #fff;
 }
 
@@ -107,7 +107,7 @@ h2 {
 
 h2:after {
     content: "";
-    border-bottom: 3px solid #EC3E95;
+    
     width: 80px;
     display: block;
     margin: auto;
@@ -139,6 +139,9 @@ h1:after {
     margin: auto;
     
 }
+.p features {
+    grid-template-columns: 1fr 1fr;}
+.features p{f1,f2}
 
 .features ul {
     list-style: none;
@@ -153,7 +156,7 @@ h1:after {
 }
 
 footer {
-    background: #FCC5DF;
+    background: #d1f1fc;
     color: #fff;
     text-align: center;
     padding: 5px;
@@ -231,6 +234,7 @@ nav ul {
     columns: 2;
 }
 
+
 .price-list li {
     display: flex;
     margin-bottom: 10px;
@@ -241,7 +245,7 @@ nav ul {
     border-bottom: 2px solid;
     height: 1em;
     margin: 0 5px;
-    justify-content: space-between;
+    justify-content: space-between;color:#FFEEF7;
 }
 
 link {}
@@ -249,7 +253,7 @@ link {}
 h3 {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
-    color: #5CAADE;
+    color: #5CAADE;border-bottom: 1px solid #F288B7;
 
 
 
@@ -261,8 +265,8 @@ p1 {
 }
 
 .title {
-    font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+    color:  #EC3E95; font-family: 'opensans';
+    font-size: 18px;
    
 
 
@@ -271,7 +275,7 @@ p1 {
 .price {
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
-    color: #5CAADE;
+    color: #F77986;
 
 }
 
@@ -283,7 +287,7 @@ div {
 .price-wrop img {
     width: 100px;
     margin-bottom: auto;
-    display: block;
+    display: block; 
 
 }
 
@@ -295,3 +299,68 @@ div {
 .price-wrop h2 after {
     margin: auto;
 }
+
+
+
+.price-wrop img {margin: auto;
+     width: 90px;
+    height: auto;
+}
+
+form {font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+  width: 300px;
+  margin: auto;
+   
+}
+input, textarea {
+  font: inherit;
+  color: inherit;
+  display: block;
+  border: 2px solid #EC3E95;
+  padding: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}.grid-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+form {
+  width: 350px;
+  margin: auto;
+}
+input, textarea {
+  
+  color: inherit;
+  display: block;
+  border: 0;
+  padding: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  background:   #d1f1fc;
+}
+::placeholder {
+ 
+  opacity: 0.5; margin: auto; font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+textarea {
+  height: 200px; font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+label {
+  margin-bottom: 20px;
+  display: block;
+}
+.grid-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+span {
+    color: #F77986;10px;
+}
+
+
