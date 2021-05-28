@@ -85,8 +85,8 @@ p {
     font-family: 'opensans';
     font-weight: 700;
     text-decoration: none;
-    color: #000;
-    background: #FFEEF7;
+    color: #fff;
+    background:  #F77986;
     padding: 10px 20px;
     display: inline-block;
     grid-gap:5px
@@ -279,7 +279,7 @@ p1 {
 
 }
 
-div {
+div { margin: auto;
     color: #000;
 
 }
@@ -364,3 +364,11 @@ span {
 }
 
 
+
+h4 {
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #5CAADE;
+}
