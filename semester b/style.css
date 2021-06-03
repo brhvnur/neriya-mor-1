@@ -372,3 +372,7 @@ h4 {
     text-align: center;
     color: #5CAADE;
 }
+.fotorama_dot.fotorama_dot {
+    border-color: #f78585;
+}
+
