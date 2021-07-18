@@ -54,7 +54,9 @@ h1 {
     font-weight: 700;
     grid-gap: 15px;
     color:#5CAADE;
+    animation: oppret.5s ease alternate 1;
 }
+
 
 .banner {
     background-image: linear-gradient(rgba(225, 225, 225, 0), rgba(0, 225,225,0)),
@@ -95,6 +97,7 @@ p {
 .button:hover {
     background:  #5CAADE;
     color: #fff;
+    animation: mybutton.3s linear alternate infinite;
 }
 
 h2 {
@@ -104,6 +107,8 @@ h2 {
     text-align: center;
     color: #5CAADE;
 }
+
+
 
 h2:after {
     content: "";
@@ -136,12 +141,14 @@ h1:after {
 .features {
     background: #fff;
     text-align: center;
-    margin: auto;
+    margin: 30px;
     
-}
+}.features img{ width: 100px;
+    margin-bottom: auto;
+   }
 .p features {
     grid-template-columns: 1fr 1fr;}
-.features p{f1,f2}
+.features p{f1,f2;}
 
 .features ul {
     list-style: none;
@@ -150,6 +157,10 @@ h1:after {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 56px;
 }
+.features ul img:hover{
+    animation: pulse.3s linear alternate infinite;
+}
+
 
 .features img {
     max-width: 100px;
@@ -208,8 +219,6 @@ nav a:hover {
 .container {
     max-width: 800px;
     margin: auto;
-
-
 
 
 }
@@ -379,5 +388,18 @@ h4 {
 
 
 .piccher {margin: auto;display: block;
+    
+}
+@keyframes pulse{0%{transform: rotate(5deg);} 100%{transform: rotate(-5deg);}}
+@keyframes oppret{0%{opacity: 0; transform:translateY(-30px);} 100%{opacity: 1;transform:translateY(0px);}}
+@keyframes mybutton{0%{transform: scale(1);} 100%{transform: scale(1.1);}}
+
+
+
+
+
+
+
+.img reset  {grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     
 }
